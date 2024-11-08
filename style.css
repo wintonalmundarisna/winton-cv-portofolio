@@ -1,0 +1,130 @@
+.hero {
+    background-color: #21272f;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.nav-item .nav-link:hover {
+    color: salmon;
+}
+
+.w {
+    color: salmon;
+}
+
+.im {
+    color: salmon;
+}
+
+.btn {
+    background-color: salmon;
+    box-shadow: 0 5px 8px 0 rgba(250, 128, 114, 0.5);
+}
+
+.btn:hover{
+    border: 1px solid salmon;
+}
+
+.imgHero .img-fluid {
+    box-shadow: 0 5px 8px 0 rgba(250, 128, 114, 0.5);
+}
+
+.social {
+    color: salmon;
+}
+
+.social:hover {
+    color: white;
+}
+
+.row-services {
+    background-color: #171C23;
+}
+
+.row-projects {
+    background-color: #21272f;
+    width: 100%;
+    height: auto;
+}
+
+.projects {
+    color: salmon;
+}
+
+.card-services {
+    background-color: #21272f;
+}
+
+.card-services:hover {
+    background-color: black;
+    box-shadow: 0 5px 8px 0 rgba(250, 128, 114, 0.5);
+    border: 1px solid salmon;
+}
+
+.img-services {
+    color: salmon;
+    font-size: 5rem;
+}
+
+.card-project {
+    box-shadow: 2px 2px 1px 0 #F1592B;
+}
+
+.row-skills {
+    background-color: #171C23;
+}
+
+.progress-bar {
+    background-color: #F1592B;
+}
+
+.bi-stack {
+    color: #F1592B;
+    font-size: 19vw;
+}
+
+.row-certification {
+    background-color: #21272f;
+}
+
+.bi-award-fill {
+    color: #F1592B;
+    font-size: 19vw;
+}
+
+.accordion {
+    background-color: #F1592B;
+}
+
+@media screen and (max-width: 768px) {
+    .text {
+        grid-area: bawah;
+        padding-top: 30px;
+        text-align: center;
+    }
+    
+    .imgHero {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .rowHero {
+        display: grid;
+        grid-template-areas: 
+        'atas'
+        'bawah'
+        ;
+    }
+
+    .wadah-social {
+        justify-content: center;
+    }
+
+    .stack {
+        color: #F1592B;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
